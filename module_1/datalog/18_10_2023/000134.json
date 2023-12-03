@@ -1,0 +1,9 @@
+{
+    "query": "select max(id) and avg(attack) from weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "max(id) and avg(attack)": 1
+        }
+    ]
+}

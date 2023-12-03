@@ -1,0 +1,9 @@
+{
+    "query": "select sum(name) as total from weapon\nwhere name like \"a%a\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "total": null
+        }
+    ]
+}

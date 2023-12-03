@@ -1,0 +1,31 @@
+{
+    "query": "select id, name, region\nfrom city\nwhere id in\n(select id from region)",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 1,
+            "name": "Knael",
+            "region": 4
+        },
+        {
+            "id": 2,
+            "name": "Troy",
+            "region": 4
+        },
+        {
+            "id": 3,
+            "name": "Pacifa",
+            "region": 4
+        },
+        {
+            "id": 4,
+            "name": "Onker",
+            "region": 4
+        },
+        {
+            "id": 5,
+            "name": "Quiro",
+            "region": 4
+        }
+    ]
+}

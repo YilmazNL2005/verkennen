@@ -1,0 +1,27 @@
+select * from hero; #10:11:17@rubyquest.db
+select * from person
+; #10:26:44@rubyquest.db
+select * from creature; #11:12:17@rubyquest.db
+select * from quest; #11:18:21@rubyquest.db
+select * from quest; #11:18:25@rubyquest.db
+select * from armor max 
+; #11:28:23@rubyquest.db
+select * from armor min
+; #11:28:46@rubyquest.db
+select * from armor min
+; #11:28:47@rubyquest.db
+select * from armor 
+; #11:35:57@rubyquest.db
+select name from armor 
+; #11:36:12@rubyquest.db
+select name from armor 
+; #11:37:41@rubyquest.db
+select name from armor 
+; #11:45:23@rubyquest.db
+select name from weapon; #11:58:14@rubyquest.db
+select * from weapon; #11:58:24@rubyquest.db
+select name, attack from weapon; #11:58:51@rubyquest.db
+select * from creature
+; #12:04:47@rubyquest.db
+select * from creature; #12:05:20@rubyquest.db
+select name, health from creature; #12:08:39@rubyquest.db

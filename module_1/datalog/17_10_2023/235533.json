@@ -1,0 +1,9 @@
+{
+    "query": "select avg(experience) from quest\n\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "avg(experience)": 1938.972602739726
+        }
+    ]
+}

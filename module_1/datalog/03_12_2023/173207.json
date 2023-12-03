@@ -1,0 +1,5 @@
+{
+    "query": "select * from person\nwhere Name == \"Bowser\" and attack == \n(select name from weapon\nwhere attack == 400)",
+    "resultcount": 0,
+    "result": []
+}

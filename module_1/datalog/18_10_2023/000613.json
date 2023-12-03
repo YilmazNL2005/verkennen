@@ -1,0 +1,9 @@
+{
+    "query": "select sum(name) from weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "sum(name)": 0.0
+        }
+    ]
+}

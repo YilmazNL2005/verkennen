@@ -1,0 +1,18 @@
+select * from animal; #09:34:59@rubyquest.db
+select * from animal; #09:35:56@rubyquest.db
+select * from person
+; #09:36:13@rubyquest.db
+select * from person ascending
+; #09:38:19@rubyquest.db
+select * from person ascending
+; #09:38:28@rubyquest.db
+select * from person ascending; #09:41:50@rubyquest.db
+select * from person; #09:42:23@rubyquest.db
+select * from person; #09:42:29@rubyquest.db
+select * from person; #09:42:29@rubyquest.db
+select * from person; #09:42:31@rubyquest.db
+select * from person order by name; #09:58:44@rubyquest.db
+select * from person order by name asc; #09:59:12@rubyquest.db
+select * from person order by name desc; #09:59:22@rubyquest.db
+select * from person order by name asc; #10:06:27@rubyquest.db
+select * from person order by name asc; #10:14:57@rubyquest.db

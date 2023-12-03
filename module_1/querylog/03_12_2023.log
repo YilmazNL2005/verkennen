@@ -1,0 +1,61 @@
+select * from city; #17:20:52@rubyquest.db
+select * from region; #17:21:13@rubyquest.db
+select holder from region
+where name = "Breach"; #17:22:01@rubyquest.db
+select * from creature; #17:24:00@rubyquest.db
+select * from npc; #17:25:26@rubyquest.db
+select * from person; #17:25:58@rubyquest.db
+select * from person; #17:26:03@rubyquest.db
+select * from weapon; #17:27:23@rubyquest.db
+select * from person; #17:28:10@rubyquest.db
+select * from person
+where name = "bowser"; #17:28:56@rubyquest.db
+select * from person
+; #17:29:13@rubyquest.db
+select * from person
+where Name == "Bowser"; #17:29:34@rubyquest.db
+select * from person
+where Name == "Bowser" and attack == 
+(select attack from weapon); #17:31:26@rubyquest.db
+select * from person
+where Name == "Bowser" and attack == 
+(select attack from weapon); #17:31:27@rubyquest.db
+select * from person
+where Name == "Bowser" and attack == 
+(select attack from weapon
+where attack == 400); #17:31:47@rubyquest.db
+select * from person
+where Name == "Bowser" and attack == 
+(select name from weapon
+where attack == 400); #17:32:07@rubyquest.db
+select * from person
+where Name == "Bowser" and attack == 
+(select attack from weapon
+where attack == 400); #17:32:14@rubyquest.db
+select * from weapon; #17:32:34@rubyquest.db
+select * from weapon; #17:34:25@rubyquest.db
+select a.name from weapon a
+where a.attack ==  
+(select b.attack from person b
+where b.attack == 400 and b.Name == 
+"Bowser"); #17:37:26@rubyquest.db
+select a.name from weapon a
+where a.attack ==  
+(select b.attack from person b
+where b.attack == 400 and b.Name == 
+"Bowser"); #17:55:01@rubyquest.db
+select a.name from weapon a
+where a.attack ==  
+(select b.attack from person b
+where b.attack == 400 and b.Name == 
+"Bowser"); #17:55:03@rubyquest.db
+select a.name from weapon a
+where a.attack ==  
+(select b.attack from person b
+where b.attack == 400 and b.Name == 
+"Bowser"); #17:56:24@rubyquest.db
+select a.name from weapon a
+where a.attack ==  
+(select b.attack from person b
+where b.attack == 400 and b.Name == 
+"Bowser"); #18:03:38@rubyquest.db

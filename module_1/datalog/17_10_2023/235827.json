@@ -1,0 +1,9 @@
+{
+    "query": "select sum(gold) as total from quest\nwhere holder = 0\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "total": 61431
+        }
+    ]
+}

@@ -1,0 +1,573 @@
+{
+    "query": "select name from person\nwhere attack = 10 and defense = 10 and agility = 10",
+    "resultcount": 189,
+    "result": [
+        {
+            "name": "Ryn'den"
+        },
+        {
+            "name": "Ghas"
+        },
+        {
+            "name": "Torhin"
+        },
+        {
+            "name": "Sliseror"
+        },
+        {
+            "name": "En'war"
+        },
+        {
+            "name": "Usttaia"
+        },
+        {
+            "name": "Polran"
+        },
+        {
+            "name": "Issrak"
+        },
+        {
+            "name": "Tredrakel"
+        },
+        {
+            "name": "Phoaughough"
+        },
+        {
+            "name": "Urnlor"
+        },
+        {
+            "name": "Ioma"
+        },
+        {
+            "name": "Er-rothon"
+        },
+        {
+            "name": "Samgha"
+        },
+        {
+            "name": "Oldoight"
+        },
+        {
+            "name": "Oughattonosy"
+        },
+        {
+            "name": "Radardtan"
+        },
+        {
+            "name": "Ir'ech"
+        },
+        {
+            "name": "Ashzos"
+        },
+        {
+            "name": "Nyswhon"
+        },
+        {
+            "name": "Perer"
+        },
+        {
+            "name": "Tonpryn"
+        },
+        {
+            "name": "Chrorad"
+        },
+        {
+            "name": "Deemtor"
+        },
+        {
+            "name": "Ingurn"
+        },
+        {
+            "name": "Luzslor"
+        },
+        {
+            "name": "Burkelem"
+        },
+        {
+            "name": "Chel"
+        },
+        {
+            "name": "Drainatin"
+        },
+        {
+            "name": "Mossay"
+        },
+        {
+            "name": "Nyetlor"
+        },
+        {
+            "name": "Therton"
+        },
+        {
+            "name": "Kotaj"
+        },
+        {
+            "name": "Nimani"
+        },
+        {
+            "name": "Isuske"
+        },
+        {
+            "name": "Ens"
+        },
+        {
+            "name": "Chaquean"
+        },
+        {
+            "name": "Vamlye"
+        },
+        {
+            "name": "Gum"
+        },
+        {
+            "name": "Ris'ran"
+        },
+        {
+            "name": "Peroust"
+        },
+        {
+            "name": "Enys"
+        },
+        {
+            "name": "Echuf"
+        },
+        {
+            "name": "Liyese"
+        },
+        {
+            "name": "Ach'ran"
+        },
+        {
+            "name": "Essold"
+        },
+        {
+            "name": "Uema"
+        },
+        {
+            "name": "Xilent"
+        },
+        {
+            "name": "Nallyeo"
+        },
+        {
+            "name": "Undald"
+        },
+        {
+            "name": "Athemis"
+        },
+        {
+            "name": "Awas"
+        },
+        {
+            "name": "Rodskel"
+        },
+        {
+            "name": "Rainadan"
+        },
+        {
+            "name": "Ightalever"
+        },
+        {
+            "name": "Shyz"
+        },
+        {
+            "name": "Entorm"
+        },
+        {
+            "name": "Ina'vor'oph"
+        },
+        {
+            "name": "Vernn"
+        },
+        {
+            "name": "Tedar"
+        },
+        {
+            "name": "Umedyn"
+        },
+        {
+            "name": "Nahuz"
+        },
+        {
+            "name": "Andril"
+        },
+        {
+            "name": "Kalskel"
+        },
+        {
+            "name": "Sulthin"
+        },
+        {
+            "name": "Tais"
+        },
+        {
+            "name": "Tidtan"
+        },
+        {
+            "name": "Uinea"
+        },
+        {
+            "name": "Schehin"
+        },
+        {
+            "name": "Roth'gha"
+        },
+        {
+            "name": "Hatck"
+        },
+        {
+            "name": "Errhat"
+        },
+        {
+            "name": "Onck"
+        },
+        {
+            "name": "Awoldo"
+        },
+        {
+            "name": "Yidini"
+        },
+        {
+            "name": "Lyerak"
+        },
+        {
+            "name": "Boek"
+        },
+        {
+            "name": "Ildsul"
+        },
+        {
+            "name": "Blen"
+        },
+        {
+            "name": "Emm"
+        },
+        {
+            "name": "Samran"
+        },
+        {
+            "name": "Sulightust"
+        },
+        {
+            "name": "Banor"
+        },
+        {
+            "name": "Ineust"
+        },
+        {
+            "name": "Ad'hat"
+        },
+        {
+            "name": "Tassul"
+        },
+        {
+            "name": "Eltasi"
+        },
+        {
+            "name": "Lorrodque"
+        },
+        {
+            "name": "Peus"
+        },
+        {
+            "name": "Seel"
+        },
+        {
+            "name": "Riltur"
+        },
+        {
+            "name": "Eldtur"
+        },
+        {
+            "name": "Enth'ati"
+        },
+        {
+            "name": "Cheiahon"
+        },
+        {
+            "name": "Hatackvesackos"
+        },
+        {
+            "name": "Shyvor"
+        },
+        {
+            "name": "Slias"
+        },
+        {
+            "name": "Hiy"
+        },
+        {
+            "name": "Ackurn"
+        },
+        {
+            "name": "Dared-ild"
+        },
+        {
+            "name": "Mukovo"
+        },
+        {
+            "name": "As'ingy"
+        },
+        {
+            "name": "L'mosler"
+        },
+        {
+            "name": "Kinunt"
+        },
+        {
+            "name": "Oira"
+        },
+        {
+            "name": "Cer'ing"
+        },
+        {
+            "name": "Ightyril"
+        },
+        {
+            "name": "Stusmor"
+        },
+        {
+            "name": "Aseyt"
+        },
+        {
+            "name": "Anyso"
+        },
+        {
+            "name": "Tic"
+        },
+        {
+            "name": "Belbel"
+        },
+        {
+            "name": "Rodkal"
+        },
+        {
+            "name": "Iatas"
+        },
+        {
+            "name": "Emhata"
+        },
+        {
+            "name": "Raks"
+        },
+        {
+            "name": "Eseise"
+        },
+        {
+            "name": "Raninasam"
+        },
+        {
+            "name": "It'lyea"
+        },
+        {
+            "name": "Ittinat"
+        },
+        {
+            "name": "Omath"
+        },
+        {
+            "name": "Enjunt"
+        },
+        {
+            "name": "Thitwar"
+        },
+        {
+            "name": "Sniqua"
+        },
+        {
+            "name": "Kellye"
+        },
+        {
+            "name": "Sayul"
+        },
+        {
+            "name": "Vorlersam"
+        },
+        {
+            "name": "Sam'alei"
+        },
+        {
+            "name": "Rak'om'ead"
+        },
+        {
+            "name": "Skel'quea"
+        },
+        {
+            "name": "Seysash"
+        },
+        {
+            "name": "Zodovo"
+        },
+        {
+            "name": "Unddarash"
+        },
+        {
+            "name": "Zhap"
+        },
+        {
+            "name": "Cerrad"
+        },
+        {
+            "name": "Hiemkim"
+        },
+        {
+            "name": "Nalelm"
+        },
+        {
+            "name": "Y'taiough"
+        },
+        {
+            "name": "Ealea"
+        },
+        {
+            "name": "Etk"
+        },
+        {
+            "name": "Cheal"
+        },
+        {
+            "name": "Estina"
+        },
+        {
+            "name": "Gyves"
+        },
+        {
+            "name": "Kelbur"
+        },
+        {
+            "name": "E'naliss"
+        },
+        {
+            "name": "Oeny"
+        },
+        {
+            "name": "Modraris"
+        },
+        {
+            "name": "Elmuk"
+        },
+        {
+            "name": "Myf"
+        },
+        {
+            "name": "Lobih"
+        },
+        {
+            "name": "Estuos"
+        },
+        {
+            "name": "Bexym"
+        },
+        {
+            "name": "Awpage"
+        },
+        {
+            "name": "Yineu"
+        },
+        {
+            "name": "Ler'rake"
+        },
+        {
+            "name": "Ton'any"
+        },
+        {
+            "name": "Rynz"
+        },
+        {
+            "name": "Detinine"
+        },
+        {
+            "name": "Beleia"
+        },
+        {
+            "name": "Mirotug"
+        },
+        {
+            "name": "Streyt"
+        },
+        {
+            "name": "Lomada"
+        },
+        {
+            "name": "Ineald"
+        },
+        {
+            "name": "Wor'pero"
+        },
+        {
+            "name": "Zeskel"
+        },
+        {
+            "name": "Naeg"
+        },
+        {
+            "name": "Irchee"
+        },
+        {
+            "name": "Whuik"
+        },
+        {
+            "name": "Rois"
+        },
+        {
+            "name": "Omeng"
+        },
+        {
+            "name": "Xosuny"
+        },
+        {
+            "name": "Polrd"
+        },
+        {
+            "name": "Bofege"
+        },
+        {
+            "name": "Rillcha"
+        },
+        {
+            "name": "Enad"
+        },
+        {
+            "name": "Ormny"
+        },
+        {
+            "name": "Athikim"
+        },
+        {
+            "name": "Aldion"
+        },
+        {
+            "name": "Perqueash"
+        },
+        {
+            "name": "Therengwar"
+        },
+        {
+            "name": "Athen"
+        },
+        {
+            "name": "Fytas"
+        },
+        {
+            "name": "Skel'um"
+        },
+        {
+            "name": "Ryimtan"
+        },
+        {
+            "name": "Ustur"
+        },
+        {
+            "name": "Ranexi"
+        },
+        {
+            "name": "Quigh"
+        },
+        {
+            "name": "Vesest"
+        },
+        {
+            "name": "Snalko"
+        }
+    ]
+}

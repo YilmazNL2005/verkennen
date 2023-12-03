@@ -1,0 +1,36 @@
+{
+    "query": "select * from weapon order by attack desc limit 5\n",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 52,
+            "name": "Axe of Terror",
+            "price": 0,
+            "attack": 6200
+        },
+        {
+            "id": 51,
+            "name": "Knock-Down Hammer",
+            "price": 0,
+            "attack": 4850
+        },
+        {
+            "id": 40,
+            "name": "Halberd",
+            "price": 2850,
+            "attack": 3500
+        },
+        {
+            "id": 50,
+            "name": "Obsidian Staff",
+            "price": 0,
+            "attack": 3500
+        },
+        {
+            "id": 22,
+            "name": "Longsword",
+            "price": 2200,
+            "attack": 3200
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "select count(experience) from quest where experience > 3000\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(experience)": 16
+        }
+    ]
+}

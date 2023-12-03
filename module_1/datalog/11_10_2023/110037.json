@@ -1,0 +1,22 @@
+{
+    "query": "select * from animal order by speed desc limit 2",
+    "resultcount": 2,
+    "result": [
+        {
+            "id": 77,
+            "type": "Tiger",
+            "speed": 10,
+            "defense": 9,
+            "loyalty": 3,
+            "owner": 8
+        },
+        {
+            "id": 78,
+            "type": "Sea Snake",
+            "speed": 10,
+            "defense": 6,
+            "loyalty": 0,
+            "owner": 0
+        }
+    ]
+}

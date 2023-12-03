@@ -1,0 +1,16 @@
+{
+    "query": "select * from hero\nwhere intelligence = 70",
+    "resultcount": 1,
+    "result": [
+        {
+            "id": 1,
+            "level": 9,
+            "health": 1035,
+            "stamina": 30,
+            "intelligence": 70,
+            "charisma": 80,
+            "resilience": 60,
+            "person": 1
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "select type from animal where id = 2\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "type": "Sheep"
+        }
+    ]
+}

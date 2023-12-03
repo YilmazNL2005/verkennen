@@ -1,0 +1,5 @@
+{
+    "query": "select id \nfrom person\nwhere name in \n(select owner from animal\nwhere owner = 2)\n",
+    "resultcount": 0,
+    "result": []
+}

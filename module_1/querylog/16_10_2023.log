@@ -1,0 +1,71 @@
+select * from animal; #14:31:17@rubyquest.db
+select DISTINCT type from animal; #14:33:43@rubyquest.db
+select * from person
+; #14:35:26@rubyquest.db
+select * from npc
+; #14:35:36@rubyquest.db
+select DISTINCT profession from npc
+; #14:36:14@rubyquest.db
+select DISTINCT profession from npc; #14:36:47@rubyquest.db
+select * from creature; #14:46:45@rubyquest.db
+select * from creature
+where name = "Killer Bee" and name = "Orc"; #14:48:31@rubyquest.db
+select * from creature
+where name = "Killer Bee"; #14:48:44@rubyquest.db
+select * from creature
+where name = "Orc"; #14:49:07@rubyquest.db
+select * from creature
+where name = "Killer Bee" and "Orc"; #14:49:20@rubyquest.db
+select * from creature
+where name = "Killer Bee" and "Orc"; #14:49:21@rubyquest.db
+select * from creature
+where name = "Killer Bee" or "Orc"; #14:50:58@rubyquest.db
+select * from creature
+where name = "Killer Bee" or name = "Orc"; #14:51:16@rubyquest.db
+select * from animal; #14:53:57@rubyquest.db
+select * from animal 
+where speed = 6 and defense = 5 ; #14:54:49@rubyquest.db
+select count(id) from animal 
+; #14:58:41@rubyquest.db
+select * from animal
+
+; #14:58:59@rubyquest.db
+select * from animal
+where type = "Wolf" or type = "Bear" or type = "Eagle"
+; #14:59:32@rubyquest.db
+select count(id) from animal
+where type = "Wolf" or type = "Bear" or type = "Eagle"; #15:01:18@rubyquest.db
+select count(id) from animal
+where type = "Wolf" or type = "Bear" or 
+type = "Eagle"; #15:01:26@rubyquest.db
+select max(speed) from animal where type = "tiger"; #15:03:34@rubyquest.db
+select max(speed) from animal where type = "tiger"; #15:03:35@rubyquest.db
+select max(id) from animal where type = "tiger"; #15:03:42@rubyquest.db
+select max(id) from animal where type = "tiger"; #15:03:42@rubyquest.db
+select max(id) from animal where type = "tiger"; #15:03:43@rubyquest.db
+select max(id) from animal where type = "tiger"; #15:03:43@rubyquest.db
+select * from animal where type = "tiger"; #15:03:51@rubyquest.db
+select * from animal where type = "tiger"; #15:03:52@rubyquest.db
+select * from animal; #15:03:59@rubyquest.db
+select MAX(speed) from animal where type = "Tiger"; #15:04:46@rubyquest.db
+select * from person; #15:06:12@rubyquest.db
+select name from person
+where attack = 10 and defense = 10 and agility = 10; #15:08:20@rubyquest.db
+select name from person
+where attack = 10 and defense = 10 and agility = 10; #15:44:47@rubyquest.db
+select name from person
+; #15:44:51@rubyquest.db
+select * from hero; #15:45:19@rubyquest.db
+select * from hero
+where intelligence = 70; #15:45:30@rubyquest.db
+select * from hero
+where not intelligence = 30 or not intelligence = 90; #15:48:59@rubyquest.db
+select * from hero
+where not intelligence = 30 and not intelligence = 90; #15:49:12@rubyquest.db
+select * from hero
+where intelligence not in (30, 90) ; #15:50:45@rubyquest.db
+select * from hero
+where intelligence not in (30, 90) ; #15:50:45@rubyquest.db
+select * from hero; #15:51:28@rubyquest.db
+select * from hero
+where intelligence not in (30, 90); #15:51:53@rubyquest.db

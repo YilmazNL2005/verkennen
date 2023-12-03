@@ -1,0 +1,14 @@
+{
+    "query": "select type, owner from animal\nwhere owner in\n(select id from person\nwhere name = \"Captain America\")\n",
+    "resultcount": 2,
+    "result": [
+        {
+            "type": "Sheep",
+            "owner": 2
+        },
+        {
+            "type": "Sea Snake",
+            "owner": 2
+        }
+    ]
+}

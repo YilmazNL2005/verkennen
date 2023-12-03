@@ -1,0 +1,5 @@
+{
+    "query": "select region from city\nwhere region in \n(select holder from region)",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,145 @@
+select * from weapon; #15:21:48@rubyquest.db
+select * from weapon
+where price between 10 and 1000; #15:22:36@rubyquest.db
+select * from weapon
+where price between 100 and 1000; #15:22:49@rubyquest.db
+select * from weapon
+where price between 100 and 1000; #15:22:58@rubyquest.db
+select * from weapon
+where attack between 100 and 1000; #15:24:03@rubyquest.db
+select * from weapon
+where attack between 300 and 600; #15:24:17@rubyquest.db
+select * from animal
+; #15:27:34@rubyquest.db
+select * from animal
+where defense between 7 and 9; #15:27:59@rubyquest.db
+select count(id) from animal
+where defense between 7 and 9; #15:28:31@rubyquest.db
+select * from animal
+where defense between 7 and 9; #15:28:38@rubyquest.db
+select count(id) from animal
+where defense between 7 and 9; #15:29:10@rubyquest.db
+select * from person; #15:34:50@rubyquest.db
+select * from person
+where name like "B"; #15:35:17@rubyquest.db
+select * from person
+where name like "b"; #15:35:22@rubyquest.db
+select * from person
+where name like "b"; #15:35:23@rubyquest.db
+select * from person
+where name like "B%"; #15:36:17@rubyquest.db
+select * from animal
+where type like "%a%"; #15:38:41@rubyquest.db
+select * from animal
+where type like "%ea%"; #15:40:18@rubyquest.db
+select * from weapon; #15:41:14@rubyquest.db
+select * from weapon
+where name like "%d"; #15:41:38@rubyquest.db
+Select * from animal
+where type like "%ea%"; #15:42:56@rubyquest.db
+Select * from animal
+where type like "%ea%"; #15:43:24@rubyquest.db
+select * from weapon
+where name like "%d"; #15:44:41@rubyquest.db
+select * from weapon
+where name like "%d"; #15:44:57@rubyquest.db
+select * from weapon
+where name like "%d"; #15:45:20@rubyquest.db
+select * from weapon
+where name like "%d"; #17:22:37@rubyquest.db
+select * from weapon
+where name like "%d%"; #17:22:43@rubyquest.db
+select * from weapon
+; #17:27:48@rubyquest.db
+select * from weapon
+; #17:28:58@rubyquest.db
+select * from npc
+; #17:31:50@rubyquest.db
+select * from person; #17:33:12@rubyquest.db
+select * from hero; #17:33:46@rubyquest.db
+select * from npc; #17:33:59@rubyquest.db
+select count(person) from npc; #17:34:15@rubyquest.db
+select count(type) from animal; #17:36:55@rubyquest.db
+select count(type) from animal; #17:39:11@rubyquest.db
+select count(name) from city; #17:39:45@rubyquest.db
+select count(name) from city; #17:41:11@rubyquest.db
+select count(type) from animal
+where type = "sheep"; #17:43:08@rubyquest.db
+select count(type) from animal
+where type = "Sheep"; #17:43:13@rubyquest.db
+select * from animal
+; #17:48:03@rubyquest.db
+select * from creature
+; #17:48:19@rubyquest.db
+select "sea snake"
+; #17:49:05@rubyquest.db
+select "sea snak"
+; #17:49:12@rubyquest.db
+select * from animal
+; #17:52:09@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #17:53:10@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #17:53:14@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #17:53:25@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #17:53:39@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #17:53:57@rubyquest.db
+select count(id) from animal
+where type = "Sea Snake"
+; #23:43:23@rubyquest.db
+select count(id) from animal
+
+; #23:43:28@rubyquest.db
+select * from animal
+
+; #23:43:35@rubyquest.db
+select min(speed) from animal
+
+; #23:45:32@rubyquest.db
+select max(speed) from animal
+
+; #23:46:23@rubyquest.db
+select max(speed) from animal
+
+; #23:46:24@rubyquest.db
+select min(speed) from animal
+
+; #23:46:32@rubyquest.db
+select max(speed) from animal
+
+; #23:47:03@rubyquest.db
+select min(attack) from weapon
+
+; #23:48:26@rubyquest.db
+select name and min(attack) from weapon
+
+; #23:49:16@rubyquest.db
+select name from weapon
+
+; #23:49:24@rubyquest.db
+select min(attack) from weapon
+
+; #23:49:57@rubyquest.db
+select max(attack) from weapon
+
+; #23:50:22@rubyquest.db
+select max(price) from weapon
+
+; #23:51:01@rubyquest.db
+select avg(experience) from quest
+
+; #23:55:33@rubyquest.db
+select * from quest
+
+; #23:56:50@rubyquest.db
+select sum(gold) as total from quest
+where holder = 0
+; #23:58:27@rubyquest.db

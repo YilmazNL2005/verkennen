@@ -1,0 +1,9 @@
+{
+    "query": "select a.name from weapon a\nwhere a.attack ==  \n(select b.attack from person b\nwhere b.attack == 400 and b.Name == \n\"Bowser\")",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Pitchfork"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "query": "select sum(name), avg(price), avg(attack) from weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "sum(name)": 0.0,
+            "avg(price)": 741.6346153846154,
+            "avg(attack)": 1620.7692307692307
+        }
+    ]
+}

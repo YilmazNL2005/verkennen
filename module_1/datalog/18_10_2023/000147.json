@@ -1,0 +1,9 @@
+{
+    "query": "select avg(attack) from weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "avg(attack)": 1620.7692307692307
+        }
+    ]
+}

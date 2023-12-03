@@ -1,0 +1,66 @@
+{
+    "query": "Select * from weapon order by name asc limit 10\n",
+    "resultcount": 10,
+    "result": [
+        {
+            "id": 5,
+            "name": "Anelace",
+            "price": 70,
+            "attack": 300
+        },
+        {
+            "id": 52,
+            "name": "Axe of Terror",
+            "price": 0,
+            "attack": 6200
+        },
+        {
+            "id": 6,
+            "name": "Baselard",
+            "price": 110,
+            "attack": 425
+        },
+        {
+            "id": 43,
+            "name": "Battle Axe",
+            "price": 1685,
+            "attack": 2800
+        },
+        {
+            "id": 19,
+            "name": "Broadsword",
+            "price": 1345,
+            "attack": 2545
+        },
+        {
+            "id": 7,
+            "name": "Cinquedea",
+            "price": 130,
+            "attack": 450
+        },
+        {
+            "id": 17,
+            "name": "Claymore",
+            "price": 1000,
+            "attack": 1950
+        },
+        {
+            "id": 24,
+            "name": "Club",
+            "price": 200,
+            "attack": 515
+        },
+        {
+            "id": 47,
+            "name": "Crossbow",
+            "price": 1300,
+            "attack": 2500
+        },
+        {
+            "id": 14,
+            "name": "Cutlass",
+            "price": 620,
+            "attack": 1180
+        }
+    ]
+}

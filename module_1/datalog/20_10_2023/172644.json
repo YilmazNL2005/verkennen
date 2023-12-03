@@ -1,0 +1,87 @@
+{
+    "query": "select id as bill from city\nwhere region in \n(select id from region)",
+    "resultcount": 27,
+    "result": [
+        {
+            "bill": 1
+        },
+        {
+            "bill": 2
+        },
+        {
+            "bill": 3
+        },
+        {
+            "bill": 4
+        },
+        {
+            "bill": 5
+        },
+        {
+            "bill": 6
+        },
+        {
+            "bill": 7
+        },
+        {
+            "bill": 8
+        },
+        {
+            "bill": 9
+        },
+        {
+            "bill": 10
+        },
+        {
+            "bill": 11
+        },
+        {
+            "bill": 12
+        },
+        {
+            "bill": 13
+        },
+        {
+            "bill": 14
+        },
+        {
+            "bill": 15
+        },
+        {
+            "bill": 16
+        },
+        {
+            "bill": 17
+        },
+        {
+            "bill": 18
+        },
+        {
+            "bill": 19
+        },
+        {
+            "bill": 20
+        },
+        {
+            "bill": 21
+        },
+        {
+            "bill": 22
+        },
+        {
+            "bill": 23
+        },
+        {
+            "bill": 24
+        },
+        {
+            "bill": 25
+        },
+        {
+            "bill": 26
+        },
+        {
+            "bill": 27
+        }
+    ]
+}

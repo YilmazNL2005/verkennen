@@ -1,0 +1,9 @@
+{
+    "query": "select \"sea snak\"\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "\"sea snak\"": "sea snak"
+        }
+    ]
+}

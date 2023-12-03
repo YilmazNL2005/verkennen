@@ -1,0 +1,5 @@
+{
+    "query": "select type, owner from animal\nwhere owner in\n(select name from person\nwhere name = \"Captain America\")\n",
+    "resultcount": 0,
+    "result": []
+}

@@ -1,0 +1,408 @@
+select * from city; #16:50:37@rubyquest.db
+select * from region; #16:50:52@rubyquest.db
+select * from region; #16:50:58@rubyquest.db
+select * from city; #16:55:00@rubyquest.db
+select * from region; #16:55:10@rubyquest.db
+select name from city; #16:57:43@rubyquest.db
+select * from city; #16:57:52@rubyquest.db
+select name from region
+where id in 
+(select id from city
+where id  = "North Groval" and id = "South Groval"); #17:03:59@rubyquest.db
+select name from region
+where id in 
+(select id from city
+where id  = "North Groval" and id = "South Groval"); #17:04:00@rubyquest.db
+select name from region
+where id in 
+(select id from city
+where id  = "North Groval" and id = "South Groval"); #17:04:01@rubyquest.db
+select * from city; #17:11:47@rubyquest.db
+select name 
+from city
+where region in (select name from region); #17:13:36@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = region); #17:14:25@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = region); #17:14:26@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = 1); #17:14:28@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = 1); #17:14:28@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = 1); #17:14:29@rubyquest.db
+select name 
+from city
+where region in (select name from region 
+where id = 2); #17:14:30@rubyquest.db
+select name 
+from city
+; #17:14:35@rubyquest.db
+select * 
+from city
+; #17:14:42@rubyquest.db
+select * from city; #17:17:28@rubyquest.db
+select * from region; #17:18:56@rubyquest.db
+select id from city
+where region in 
+(select id from region); #17:26:34@rubyquest.db
+select id as bill from city
+where region in 
+(select id from region); #17:26:44@rubyquest.db
+select name from city
+where region in 
+(select id from region); #17:26:55@rubyquest.db
+select * from city
+where region in 
+(select id from region); #17:27:14@rubyquest.db
+select * from city
+where region in 
+(select name from region); #17:27:22@rubyquest.db
+select * from city
+where region in 
+(select holder from region); #17:27:32@rubyquest.db
+select * from city
+where region in 
+(select holder from region); #17:27:33@rubyquest.db
+select name from city
+where region in 
+(select holder from region); #17:27:43@rubyquest.db
+select region from city
+where region in 
+(select holder from region); #17:27:48@rubyquest.db
+select * from city
+where region in 
+(select holder from region); #17:27:53@rubyquest.db
+select * from city
+where region in 
+(select id from region); #17:27:59@rubyquest.db
+select name from city
+where region in 
+(select id from region
+where id = "north Grovel"); #17:29:32@rubyquest.db
+select * from city
+where region in 
+(select id from region
+where id = "north Grovel"); #17:29:38@rubyquest.db
+select * from city
+where region in 
+(select name from region
+where id = "north Grovel"); #17:29:48@rubyquest.db
+select * from city
+where region in 
+(select id from region
+where id = "north Grovel"); #17:29:51@rubyquest.db
+select * from city
+where region in 
+(select holder from region
+where id = "north Grovel"); #17:30:03@rubyquest.db
+select * from city
+where region in 
+(select name from region
+where name = "north Grovel"); #17:30:20@rubyquest.db
+select id, name, region
+from city; #17:40:45@rubyquest.db
+select id, name, region
+from city
+where id = 4; #17:42:35@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region); #17:43:48@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region); #17:43:53@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region) = 3; #17:44:06@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region); #17:44:09@rubyquest.db
+select id, name
+from city
+where id in
+(select id from region); #17:44:25@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region); #17:46:43@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where id = 3); #17:47:31@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where region = "North Grovel" ); #17:47:54@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where region = "North Grovel" ); #17:47:55@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where region = "North Grovel" ); #17:47:55@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where region = "North Grovel" ); #17:47:55@rubyquest.db
+select id, name, region
+from city
+where id in
+(select id from region
+where region = "North Grovel" ); #17:47:55@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where region = "North Grovel" ); #17:48:07@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id = 4); #17:48:16@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id = 3); #17:48:20@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id = 3 and 4); #17:48:28@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id = 3 and id = 4); #17:48:34@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id = 3 and id = 4); #17:48:35@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where id between 3 and 4); #17:48:55@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north grovel"); #17:49:56@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north"); #17:50:02@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north"); #17:50:03@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north"); #17:50:03@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north"); #17:50:03@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "north groval"); #17:50:14@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval"); #17:50:33@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval" and name = "South Groval"); #17:50:53@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval" and "South Groval"); #17:51:08@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval" and "South Groval"); #17:51:09@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval" and "South Groval"); #17:51:09@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "North Groval"); #17:51:20@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval"); #17:51:26@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval")
+; #17:59:14@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval")
+; #17:59:19@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval") and name = "North Groval"
+; #17:59:36@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval") and name = "North Groval"
+; #17:59:37@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name = "South Groval")
+; #18:10:02@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name in ("South Groval", "North Groval"))
+; #18:10:37@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name in ("South Groval", "North Groval"))
+; #18:44:13@rubyquest.db
+select id, name, region
+from city
+where region in
+(select id from region
+where name in ("South Groval", "North Groval"))
+; #18:44:18@rubyquest.db
+select *
+from person
+; #18:44:44@rubyquest.db
+select *
+from animal
+; #18:46:15@rubyquest.db
+select *
+from person
+; #18:49:18@rubyquest.db
+select type, speed, defense, loyalty, owner
+from animal
+where owner in
+(select name from person
+where id = 2); #18:52:49@rubyquest.db
+select name 
+from person
+where name in (select owner from animal
+where owner = 2)
+; #18:54:31@rubyquest.db
+select id 
+from person
+where name in 
+(select owner from animal
+where owner = 2)
+; #18:54:55@rubyquest.db
+select name 
+from person
+where name in 
+(select name from animal
+where owner = 2)
+; #18:55:08@rubyquest.db
+select name 
+from person
+where name in 
+(select type from animal
+where owner = 2)
+; #18:55:27@rubyquest.db
+select name 
+from person
+where name in 
+(select type from animal
+where owner = 2)
+; #18:55:27@rubyquest.db
+select name 
+from person
+where name in 
+(select name from animal
+where owner = 2)
+; #18:55:35@rubyquest.db
+select type, owner from animal
+
+; #18:56:30@rubyquest.db
+select type, owner from animal
+where owner in
+(select name from person
+where name = "Captain America")
+; #18:57:30@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Captain America")
+; #18:57:37@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Captain America")
+; #18:57:39@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Mega Mindy")
+; #18:57:59@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Captain America")
+; #18:58:12@rubyquest.db
+select type, owner from animal
+; #18:58:30@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Captain America")
+; #18:58:56@rubyquest.db
+select type, owner from animal
+where owner in
+(select id from person
+where name = "Captain America")
+; #18:58:59@rubyquest.db

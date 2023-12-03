@@ -1,0 +1,11 @@
+{
+    "query": "select min(name), avg(price), avg(attack) from weapon\nwhere name like \"%sword%\"\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "min(name)": "Broadsword",
+            "avg(price)": 884.0,
+            "avg(attack)": 1949.0
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+select max(id) and avg(attack) from weapon
+; #00:01:34@rubyquest.db
+select avg(attack) from weapon
+; #00:01:47@rubyquest.db
+select * from weapon
+; #00:01:55@rubyquest.db
+select sum(name) from weapon
+; #00:06:13@rubyquest.db
+select sum(id) from weapon
+; #00:06:28@rubyquest.db
+select sum(id) and avg(attack )from weapon
+; #00:06:48@rubyquest.db
+select sum(name) and avg(attack )from weapon
+; #00:06:56@rubyquest.db
+select sum(price) and avg(attack )from weapon
+; #00:07:06@rubyquest.db
+select sum(price) and avg(attack )from weapon
+; #00:10:03@rubyquest.db
+select * from weapon
+; #00:10:12@rubyquest.db
+select sum(name) as total from weapon
+where name like "%sword"; #00:10:56@rubyquest.db
+select sum(name) as total from weapon
+where name like "%sword"; #00:11:00@rubyquest.db
+select sum(name) as total from weapon
+where name like "sword"; #00:11:06@rubyquest.db
+select sum(name) as total from weapon
+where name like "%sword%"; #00:11:15@rubyquest.db
+select sum(name) as total from weapon
+where name like "%dirk%"; #00:11:24@rubyquest.db
+select sum(name) as total from weapon
+where name like "%dirk%"; #00:11:24@rubyquest.db
+select sum(name) as total from weapon
+where name like "%dir%"; #00:11:26@rubyquest.db
+select sum(name) as total from weapon
+where name like "%di%"; #00:11:28@rubyquest.db
+select sum(name) as total from weapon
+where name like "%d%"; #00:11:30@rubyquest.db
+select sum(name) as total from weapon
+where name like "%d%"; #00:11:31@rubyquest.db
+select sum(name) as total from weapon
+where name like "%d%"; #00:11:31@rubyquest.db
+select sum(name) as total from weapon
+where name like "%d%"; #00:11:31@rubyquest.db
+select sum(name) as total from weapon
+where name like "%a%"; #00:11:34@rubyquest.db
+select sum(name) as total from weapon
+where name like "%a"; #00:11:39@rubyquest.db
+select sum(name) as total from weapon
+where name like "%a"; #00:11:39@rubyquest.db
+select sum(name) as total from weapon
+where name like "%a"; #00:11:39@rubyquest.db
+select sum(name) as total from weapon
+where name like "%s"; #00:11:41@rubyquest.db
+select sum(name) as total from weapon
+where name like "%d"; #00:11:43@rubyquest.db
+select sum(name) as total from weapon
+where name like "%f"; #00:11:45@rubyquest.db
+select sum(name) as total from weapon
+where name like "%f"; #00:11:45@rubyquest.db
+select sum(name) as total from weapon
+where name like "a%"; #00:12:02@rubyquest.db
+select sum(name) as total from weapon
+where name like "a%"; #00:12:03@rubyquest.db
+select sum(name) as total from weapon
+where name like "a%"; #00:12:03@rubyquest.db
+select sum(name) as total from weapon
+where name like "a%a"; #00:12:04@rubyquest.db
+select sum(name) as total from weapon
+where name like "sword"; #00:12:09@rubyquest.db
+select sum(name) as total from weapon
+where name like "sword%"; #00:12:12@rubyquest.db
+select sum(name) as total from weapon
+where name like "sword%"; #00:12:12@rubyquest.db
+select distinct(name) as total from weapon
+where name like "sword%"; #00:12:25@rubyquest.db
+select distinct(name) as total from weapon
+where name like "sword%"; #00:12:26@rubyquest.db
+select distinct(name) as total from weapon
+where name like "sword%"; #00:12:27@rubyquest.db
+select distinct(name), sum(price) as total from weapon
+where name like "sword%"; #00:13:59@rubyquest.db
+select distinct(name), avg(attack) , sum(price) as total from weapon
+where name like "sword%"; #00:14:26@rubyquest.db
+select * from weapon; #00:16:01@rubyquest.db
+select * from weapon
+where name like "%sword%"; #00:17:38@rubyquest.db
+select distinct(name), avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:34@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:47@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:48@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:48@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:48@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:48@rubyquest.db
+select avg(price), avg(attack) from weapon
+where name like "%sword%"; #00:18:58@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+; #00:19:09@rubyquest.db
+select max(name), avg(price), avg(attack) from weapon
+; #00:19:23@rubyquest.db
+select avg(price), avg(attack) from weapon
+; #00:19:36@rubyquest.db
+select sum(name), avg(price), avg(attack) from weapon
+; #00:19:54@rubyquest.db
+select distinct(name), avg(price), avg(attack) from weapon
+; #00:20:10@rubyquest.db
+select sum(name) as total, avg(price), avg(attack) from weapon
+; #00:20:22@rubyquest.db
+select sum(name) as total, avg(price), avg(attack) from weapon
+where name = "%sword%"
+; #00:22:20@rubyquest.db
+select sum(name) as total, avg(price), avg(attack) from weapon
+where name = "%sword%"
+; #00:22:21@rubyquest.db
+select sum(name), avg(price), avg(attack) from weapon
+where name = "%sword%"
+; #00:22:33@rubyquest.db
+select sum(name), avg(price), avg(attack) from weapon
+where name = "%sword%"
+; #00:22:33@rubyquest.db
+select sum(name), avg(price), avg(attack) from weapon
+where name = "%sword%"
+; #00:22:34@rubyquest.db
+select sum(name), avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:22:45@rubyquest.db
+select max(name), avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:22:53@rubyquest.db
+select (name), avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:23:01@rubyquest.db
+select min(name), avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:23:20@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "sword"
+; #00:24:47@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword%]"
+; #00:25:28@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword]"
+; #00:25:31@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword]%"
+; #00:25:37@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword]%"
+; #00:25:37@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword]%"
+; #00:25:37@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "[sword]%"
+; #00:25:38@rubyquest.db
+select name, avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:26:14@rubyquest.db
+select count(name), avg(price), avg(attack) from weapon
+where name like "%sword%"
+; #00:27:23@rubyquest.db

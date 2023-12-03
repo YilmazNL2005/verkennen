@@ -1,0 +1,9 @@
+{
+    "query": "select count(*) from animal where speed = \n(select max(speed) from animal) ",
+    "resultcount": 1,
+    "result": [
+        {
+            "count(*)": 7
+        }
+    ]
+}

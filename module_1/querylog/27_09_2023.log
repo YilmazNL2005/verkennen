@@ -1,0 +1,12 @@
+select id from person; #10:08:38@rubyquest.db
+select id, 7 from person; #10:08:44@rubyquest.db
+select id from person; #10:09:17@rubyquest.db
+select 7 from person; #10:09:29@rubyquest.db
+select id from person; #10:09:34@rubyquest.db
+select id from person; #10:10:17@rubyquest.db
+select id from person; #10:10:22@rubyquest.db
+select * from person where id = 7; #10:17:16@rubyquest.db
+select * from person where gold = 0; #10:19:19@rubyquest.db
+select * from city where region = 1; #10:21:45@rubyquest.db
+select * from animal; #10:23:41@rubyquest.db
+select * from animal where type; #10:53:07@rubyquest.db

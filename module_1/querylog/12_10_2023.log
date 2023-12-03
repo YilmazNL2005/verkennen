@@ -1,0 +1,52 @@
+Select name from city order by name desc; #11:50:35@rubyquest.db
+Select * from city order by name desc; #11:50:58@rubyquest.db
+Select * from city order by name desc; #11:51:09@rubyquest.db
+Select * from city order by name limit 1; #11:52:40@rubyquest.db
+Select * from city order by name limit 10
+; #11:52:44@rubyquest.db
+Select * from city order by name limit 10
+; #11:52:46@rubyquest.db
+Select * from city order by name desc limit 10
+; #11:52:53@rubyquest.db
+Select * from city order by name limit 10
+; #11:53:01@rubyquest.db
+Select * from person order by name limit 10
+; #11:53:17@rubyquest.db
+Select * from person limit 10
+; #11:54:05@rubyquest.db
+Select * from weapon order by name asc limit 10
+; #11:57:10@rubyquest.db
+Select * from weapon 
+; #11:57:21@rubyquest.db
+Select * from weapon
+; #11:57:38@rubyquest.db
+select * from city
+; #11:58:11@rubyquest.db
+select * from weapon
+; #12:05:33@rubyquest.db
+select * from weapon order by price
+; #12:05:46@rubyquest.db
+select * from weapon order by price asc
+; #12:05:56@rubyquest.db
+select * from weapon order by price asc
+; #12:05:58@rubyquest.db
+select * from weapon order by price desc
+; #12:06:03@rubyquest.db
+select * from weapon order by price desc limit 5
+; #12:06:14@rubyquest.db
+select * from weapon order by price desc limit 5
+; #12:07:00@rubyquest.db
+select * from weapon order by attack desc limit 5
+; #12:08:49@rubyquest.db
+select * from weapon order by attack desc limit 3
+; #12:09:02@rubyquest.db
+select * from animal
+; #12:10:24@rubyquest.db
+select count(type) from animal 
+; #12:11:31@rubyquest.db
+select * from animal 
+; #12:11:40@rubyquest.db
+select count(type) from animal 
+; #12:11:59@rubyquest.db
+select count(type) from animal 
+; #12:12:12@rubyquest.db

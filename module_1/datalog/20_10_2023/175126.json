@@ -1,0 +1,31 @@
+{
+    "query": "select id, name, region\nfrom city\nwhere region in\n(select id from region\nwhere name = \"South Groval\")",
+    "resultcount": 5,
+    "result": [
+        {
+            "id": 7,
+            "name": "Harbor",
+            "region": 3
+        },
+        {
+            "id": 8,
+            "name": "Montse",
+            "region": 3
+        },
+        {
+            "id": 9,
+            "name": "Laeks",
+            "region": 3
+        },
+        {
+            "id": 10,
+            "name": "Vermon",
+            "region": 3
+        },
+        {
+            "id": 11,
+            "name": "Nordberg",
+            "region": 3
+        }
+    ]
+}

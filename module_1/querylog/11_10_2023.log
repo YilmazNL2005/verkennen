@@ -1,0 +1,9 @@
+select * from city; #10:08:00@rubyquest.db
+select * from animal order by speed desc limit 1; #11:00:20@rubyquest.db
+select * from animal order by speed desc limit 2; #11:00:37@rubyquest.db
+select * from animal order by speed desc limit 1; #11:02:19@rubyquest.db
+select max(speed) from animal ; #11:07:06@rubyquest.db
+select max(speed) from animal ; #11:07:06@rubyquest.db
+select max(speed) from animal ; #11:07:07@rubyquest.db
+select count(*) from animal where speed = 
+(select max(speed) from animal) ; #11:10:54@rubyquest.db

@@ -1,0 +1,5 @@
+{
+    "query": "select type, speed, defense, loyalty, owner\nfrom animal\nwhere owner in\n(select name from person\nwhere id = 2)",
+    "resultcount": 0,
+    "result": []
+}

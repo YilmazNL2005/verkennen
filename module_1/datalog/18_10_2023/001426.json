@@ -1,0 +1,11 @@
+{
+    "query": "select distinct(name), avg(attack) , sum(price) as total from weapon\nwhere name like \"sword%\"",
+    "resultcount": 1,
+    "result": [
+        {
+            "name": "Swordstaff",
+            "avg(attack)": 1100.0,
+            "total": 575
+        }
+    ]
+}

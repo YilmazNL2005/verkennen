@@ -1,0 +1,9 @@
+{
+    "query": "select sum(id) and avg(attack )from weapon\n",
+    "resultcount": 1,
+    "result": [
+        {
+            "sum(id) and avg(attack )": 1
+        }
+    ]
+}

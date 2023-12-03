@@ -1,0 +1,5 @@
+{
+    "query": "select * from city\nwhere region in \n(select name from region\nwhere name = \"north Grovel\")",
+    "resultcount": 0,
+    "result": []
+}
