@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(205, 255, 154);
+
+}
+header{
+    background-color: rgb(146, 254, 109);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.Joy_of_boardgames{
+    font-family: monospace;
+}
+
+.Escape_screens{
+    font-family: monospace;
+}
+
+.Great{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Great ul{
+    color: rgb(9, 67, 9);
+    font-weight: 600;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: blue;
+    
+}
