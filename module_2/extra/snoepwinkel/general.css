@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: greenyellow;
+}
+
+h2{
+    color: chocolate;
+}
+p:last-of-type {
+    color: red;
+    font-family: monospace;
+}
+section{
+
+} 
+header{
+
+} 
+footer{
+
+} 
+p{
+    color: blue;
+    font-family: cursive;
+} 
+
+/* en verder: de spatie, de +, de > , 
+de [attribute] en de komma */
