@@ -5,8 +5,10 @@
   <title>Ronde stuivers</title>
 </head>
 <body>
-  Bedrag: <input type="number" step="0.01" id="input_amount" value="1.00"><br>
-
+  <p>
+    <label>Bedrag: </label> 
+    <input type="number" step="0.01" id="input_amount" value="1.00"><br>
+  </p>
   <button id="calc">Bereken</button>
   <p>Afgerond op stuivers:</p>
   <p id="result_amount"></p>
@@ -15,15 +17,15 @@
 /*
   Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function roundToCoin moet worden aangeroepen. Deze rond het bedrag af naar stuivers
 */
-Const coin = 5; // regel bevat bug
+const coin = 5; // const was geschreven met hoofdletter (Const) hierdoor was coin not defined
 
   function roundToCoin(event){
     let amountInput = input_amount.value; 
     let amount = Number(amountInput); 
     let rounded = Math.round(amount * 100 / coin) * coin/ 100
-    result_amount.txtContent = rounded; // regel bevat bug
+    result_amount.textContent = rounded; // textContent was geschreven als txtContent. Er miste een e.
   }
 
-  calc.addEventListener('click',roundToCoins); // regel bevat bug
+  calc.addEventListener('click',roundToCoin); // function naam was niet goed geschreven. Er stond roundToCoins
 </script>
 </html>

@@ -5,9 +5,15 @@
   <title>Price</title>
 </head>
 <body>
-  Aantal: <input type="number" id="amount" value="1"> <span>adviesprijs €1,23 </span><br>
-  Vriendenprijs: <input type="number" step="0.01" id="price" value="1.00"><br>
-
+  <p>
+    <label>Aantal: </label>
+    <input type="number" id="amount" value="1"> <span>adviesprijs €1,23 </span><br>
+  </p>
+  <p>
+    <label>Vriendenprijs: </label>
+    <input type="number" step="0.01" id="price" value="1.00"><br>
+  </p>
+  
   <button id="bereken">Bereken</button>
   <p>Te betalen:</p>
   <p id="resultaat"></p>
@@ -16,19 +22,20 @@
 /*
   Onderstaande script moet ervoor zorgen dat als op de knop Bereken wordt geklikt de function berekening wordt aangeroepen. Deze function bepaalt eerst of er met een vriendenprijs of een adviesprijs moet worden gerekend. Het totaal te betalen bedrag wordt dan berekend als: het aantal (amount.value) x de gehanteerde prijs. Met Number() zet je een string om naar een getal. Met .toFixed(2) zet je een getal om naar een string met 2 decimalen achter de komma. Het p-element met id: resultaat moet het totaal te betalen bedrag.
 */
-  const PRICE = 1. 23; // is adviesprijs
-  funcion berekening(event){ 
-    Let total = 0; 
-    let priceValue = Price.value; // regel bevat bug
+  const PRICE = 1.23; // is adviesprijs
+  function berekening(event){         // function was fout geschreven. 
+    // let total = 0;
+                                            // let was met hoofdletter geschreven. let moet altijd met kleine letters geschreven worden.
+    let priceValue = price.value; // price stond met hoofdletter. hierdoor was het not defined
     let realPrice = PRICE; 
-    if priceValue != '' { 
-      let newPrice = number(priceValue); // regel bevat bug
-      realPrice == newPrice; // regel bevat 1 bug
+    if (priceValue != '' ){ 
+      let newPrice = Number(priceValue); // number moet Number zijn
+      realPrice = newPrice; // er stond == maar dat heeft geen nut om elkaar te vergelijken. De echte prijs moest veranderd worden naar de nieuwe prijs.
     } 
-    let total = realPrice x Number(amount.value); 
-    resultaat.txtContent = total.tofixed(2); // regel bevat 2 bugs
+    let total = realPrice * Number(amount.value); // Er stond X maar het moet * zijn om te kunnen vermenigvuldigen.
+    resultaat.textContent = total.toFixed(2); // textContent stond zonder e geschreven dus txt. dat klopt niet. Tevens werd toFixed als tofixed geschreven.
   }
 
-  bereken.addEventListener('click',berekenen); // regel bevat bug
+  bereken.addEventListener('click',berekening); // na 'click' stond bereken maar dat kan niet. het moet berekening zijn.
 </script>
 </html>

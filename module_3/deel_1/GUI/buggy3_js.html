@@ -5,8 +5,14 @@
   <title>Ronde stuivers</title>
 </head>
 <body>
-  Hoogte: <input type="number" step="0.01" id="input_height" ><br>
-  Diameter: <input type="number" step="0.01" id="input_diameter" ><br>
+  <p>
+    <label>Hoogte:</label>
+    <input type="number" step="0.01" id="input_height" ><br>
+  </p>
+  <p>
+    <label>Diameter: </label>
+    <input type="number" step="0.01" id="input_diameter" ><br>
+  </p>
   <button id="calculate_button">Bereken</button>
   <p>Cilinderinhoud:</p>
   <p id="result"></p>
@@ -24,11 +30,11 @@
     let heightInput = input_height.value; 
     let diameterInput = input_diameter.value; 
     let height = Number(heightInput); 
-    let diameter = Number(diametersInput); // regel bevat bug
-    let content = calculateCilinderContent(diameter) // regel bevat bug
+    let diameter = Number(diameterInput); // de variable van regels 31 was niet goed in regel 33 geschreven. Er stond diametersInput.
+    let content = calculateCilinderContent(diameter, height) // de function heeft twee parameters dus er moeten ook 2 auguments gegeven worden. er stond er maar eentje
     result.textContent = content.toFixed(2); 
   }
 
-  calculate_button.addEventListener('Click',calculate); // regel bevat bug
+  calculate_button.addEventListener('click',calculate); // Er stond 'Click'. Het moet zonder hoofdletter geschreven worden anders doet het niks.
 </script>
 </html>
