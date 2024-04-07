@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script src="./robot-arm.js"></script>
+        <script>
+            // Robotarm bibliotheek inladen
+            var canvas = document.getElementById("canvas");
+            var robotArm = new RobotArm(canvas);
+            robotArm.speed=500;
+            
+            // Het level inladen
+            robotArm.loadLevel("expert");
+            
+            // Jouw instructies volgen hier
+            let kleur = robotArm.scan()
+            alert(kleur)
+            robotArm.grab()
+            
+            // De door jouw opgegeven instructies uitvoeren
+            robotArm.run();
+        </script>
+    </body>
+</html>
