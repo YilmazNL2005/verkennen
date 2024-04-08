@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.dik_blauw{
+    color: blue;
+    font-weight: bold;
+}
+.geel_cursief{
+    color: yellow;
+    font-style: italic;
+}
+.rood_monospace{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+#onderstreep{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+#rood_achtergrond{
+    color: yellow;
+    font-style: italic;
+    background-color: red;
+}
+h1{
+    color: green;
+}
+h2{
+    color: orange;
+}
