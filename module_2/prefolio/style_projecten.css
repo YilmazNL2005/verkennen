@@ -1,3 +1,21 @@
 body{
     background-color: white;
 }
+h1{
+    color: #333;
+}
+h2{
+    color: #333;
+}
+h3{
+    color: #333;
+}
+
+.home_pagina {
+    position: absolute;
+    top: 10px; /* Afstand vanaf de bovenrand */
+    right: 10px; /* Afstand vanaf de rechterrand */
+    padding: 5px 10px; /* Padding voor ruimte rond de link */
+    background-color: #f0f0f0; /* Achtergrondkleur voor zichtbaarheid */
+    border: 1px solid #ccc; /* Rand om de link voor zichtbaarheid */
+}
